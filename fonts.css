@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Light';
+    /* Nombre personalizado para la fuente */
+    src: url('fonts/Work_Sans/WorkSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Regular';
+    /* Nombre personalizado para la fuente */
+    src: url('fonts/Work_Sans/WorkSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Italic';
+    /* Nombre personalizado para la fuente */
+    src: url('fonts/Work_Sans/WorkSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Semi-bold';
+    /* Nombre personalizado para la fuente */
+    src: url('fonts/Work_Sans/WorkSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bold';
+    /* Nombre personalizado para la fuente */
+    src: url('fonts/Work_Sans/WorkSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    src: url('fonts/Input_Mono/fonts/InputMono-Bold-Testing.woff2') format("woff2"),
+        url('fonts/Input_Mono/fonts/InputMono-BlackItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: bold;
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: "Semi-bold";
+    font-size: 2em;
+}
+
+h1 span {
+    color: antiquewhite;
+    font-family: "Light";
+}
+
+h2 {
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.group-title-b h2 {
+    font-family: "Light";
+}
+
+h3 {
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h4 {
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h5 {
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+    font-size: x-small;
+}
+
+p {
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2;
+}
+
+.menu a {
+    color: antiquewhite;
+    font-family: "InputSans";
+    text-decoration: none;
+}

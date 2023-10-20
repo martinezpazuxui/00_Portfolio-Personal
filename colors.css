@@ -1,0 +1,10 @@
+/* COLORES */
+
+:root {
+    --primario: #6955B6;
+    --primario-b: #231e3a;
+    --secundario: #FFCA61;
+    --dark: #141414;
+    --grey: rgba(161, 98, 143, 0.03);
+    --white: #ebebeb;
+}

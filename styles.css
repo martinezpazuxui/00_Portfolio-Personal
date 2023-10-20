@@ -1,0 +1,254 @@
+#grid {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "portada"
+        "works"
+        "footer";
+    grid-template-rows: 60px auto auto auto;
+    grid-template-columns: auto;
+
+    background-color: rgba(161, 98, 143, 0.03);
+}
+
+html {
+    background-color: var(--dark);
+}
+
+hr {
+    border: none;
+    height: 2px;
+    border-top: 1px solid var(--primario);
+    /* Cambia el color y grosor de la línea según tus preferencias */
+    width: 100%;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.05);
+}
+
+.title h3 {
+    background-color: var(--primario-b);
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {    
+    padding: 20px 0px;
+}
+
+#category-title {
+    margin-bottom: 5em;
+}
+
+#category-title hr {
+    border: none;
+    height: 2px;
+    border-top: 1px solid var(--primario);
+    /* Cambia el color y grosor de la línea según tus preferencias */
+    width: 100%;
+    
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.05);
+}
+
+#logofolio {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 90%;
+    margin: auto;
+    padding: 1em 0em;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-logofolio {
+    display: grid;
+    gap: 4em;
+    width: 90%;
+    margin: auto;
+    padding: 1em 0em;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-title-b {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    grid-area: header;
+    align-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.container-navbar {
+    width: 90%;
+    padding: 20px 0px;
+    margin: 0px auto;
+
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section#portada {
+    grid-area: portada;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 90%;
+    margin: 0px auto;
+    padding: 200px 0px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-portada {
+    display: flex;
+    justify-content: center;
+}
+
+.button-00 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+section#works {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+#product-designer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.title {
+    margin-bottom: 60px;
+}
+
+.work-a {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 8em;
+    justify-content: space-between;
+}
+
+.work-b {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-bottom: 8em;
+    justify-content: space-between;
+}
+
+.work-data-a {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-data-b {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.text-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.work-picture {
+    display: flex;
+}
+
+.text-data h4 {
+    margin: 10px 0px;
+}
+
+.text-data h5 {
+    margin: 10px 0px;
+}
+
+.text-data p {
+    margin: 10px 0px;
+}
+
+.work-data button {}
+
+.work-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.work-b .work-image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Acá determino el estilo para la tabla del logofolio */
+
+#logofolio hr {
+    border: none;
+    border-top: 1px solid var(--primario);
+    /* Cambia el color y grosor de la línea según tus preferencias */
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 40px;
+}
+
+.logo-table {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.logo-table tr {
+    margin: 20px;
+}
+
+.logo-table td {
+    padding: 20px;
+}
+
+.logo-table img {
+    max-width: 100%;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
